@@ -1,0 +1,234 @@
+
+
+body{
+  background-image: url("photos/bedr2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1{
+
+  position:fixed;
+  top: 70px;
+  left: 600px;
+
+}
+
+h1:hover{
+
+    animation: shake 0.5s;
+
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}
+
+
+#draggable {
+    width: 15px; height: 15px; padding: 0.5em;
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    left: 1130px;
+    z-index: 2;
+  }
+
+
+#draggable2 {
+      width: 15px; height: 15px; padding: 0.5em;
+      background-color: transparent;
+  position: absolute;
+  top: 200px;
+  left: 130px;
+  z-index: 1;
+
+    }
+
+a{
+
+font-family: 'Grandstander', cursive;
+filter: blur(.6px);
+text-decoration: none;
+
+}
+
+
+.glow {
+  font-size: 23px;
+  color: BLUE;
+  position:fixed;
+  top: 280px;
+  left: 640px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                 0 0 50px #F5E621, 0 0 60px #F5E621, 0 0 70px #F5E621;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #F5E621, 0 0 40px #F5E621, 0 0 50px #F5E621,
+                 0 0 60px #F5E621, 0 0 70px #F5E621, 0 0 80px #F5E621;
+               }
+
+  }
+
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    font-size: 12px;
+    visibility: hidden;
+    width: 100px;
+    background-color: yellow;
+    color: #black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    border-style: dashed;
+    border-color: pink;
+    left: 40%;
+    top:110%;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+  .tooltip:hover .tooltiptext {
+    visibility:visible;
+
+
+  }
+
+  h3{
+
+    position: fixed ;
+    top: 610px;
+    right: 430px;
+    font-size: 26px;
+    text-decoration: none;
+  }
+
+  h4{
+
+    position: fixed ;
+    top: 599px;
+    left: 450px;
+    font-size: 23px;
+    text-decoration: none;
+  }
+
+#two{
+background-image: url("photos/eyes.jpg");
+  }
+
+  #twotwo{
+    position: fixed;
+    top: 140px;
+    left: 350px;
+    opacity: 80%;
+  }
+
+  #fingerright {
+    position: fixed;
+    top: 400px;
+    left: 900px;
+    }
+
+#fingerleft{
+position: fixed;
+top: 490px;
+left: 510px;
+  }
+
+  #question {
+
+    position: fixed;
+    top: 160px;
+    left: 630px;
+    filter: blur(1.3px);
+  }
+
+  #three{
+background-image: url("photos/foggyplay.jpg");
+  }
+
+#pretty{
+
+      position: fixed;
+      top: 160px;
+      left: 630px;
+}
+
+#counter{
+
+        position: fixed;
+        top: 160px;
+        left: 630px;
+}
+
+#someone{
+
+          position: fixed;
+          top: 410px;
+          left: 750px;
+          opacity: 20%;
+
+}
+
+#someone:hover{
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+  }
+
+#what{
+position: fixed;
+top:80px;
+left:380px;
+opacity:0%;
+
+}
+
+#what:hover{
+opacity: 80%;
+}
+
+}
