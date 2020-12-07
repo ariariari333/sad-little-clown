@@ -60,7 +60,7 @@ h1:hover{
 
 a{
 
-font-family: 'Grandstander', cursive;
+font-family: 'Grandstander';
 filter: blur(.6px);
 text-decoration: none;
 
@@ -124,21 +124,22 @@ text-decoration: none;
 
   h3{
 
-    position: fixed ;
+    position: absolute ;
     top: 610px;
     right: 430px;
-    font-size: 26px;
+    font-size: 35px;
     text-decoration: none;
   }
 
   h4{
 
-    position: fixed ;
+    position: absolute ;
     top: 599px;
     left: 450px;
-    font-size: 23px;
+    font-size: 35px;
     text-decoration: none;
   }
+
 
 #two{
 background-image: url("photos/eyes.jpg");
@@ -231,4 +232,105 @@ opacity:0%;
 opacity: 80%;
 }
 
+
+#four{
+background-image: url("photos/screen.jpg");
+}
+
+#five{
+  background-image: url("photos/hall.jpg");
+  background-size: cover;
+}
+
+#fae1{
+  position: fixed;
+  top:80px;
+  left:380px;
+  opacity: 70%;
+}
+
+
+#fae2{
+  position: fixed;
+  top:450px;
+  left:1300px;
+  opacity: 70%;
+}
+
+
+#fae4{
+  position: fixed;
+  top:540px;
+  left:700px;
+opacity: 70%;
+}
+
+
+#fae3{
+  position: fixed;
+  top:640px;
+  left:200px;
+  opacity: 70%;
+}
+
+
+#dream{
+  position: fixed;
+  top:200px;
+  left:860px;
+  opacity: 100%;
+}
+
+#clown4{
+  position: fixed;
+  top:450px;
+  left:730px;
+  opacity: 70%;
+
+}
+
+#homee{
+  position: fixed ;
+  top: 380px;
+  left: 750px;
+
+}
+
+#six{
+background-image: url("photos/playg.jpg");
+}
+
+#page2{
+  position: fixed ;
+  top: 200px;
+  left: 500px;
+  opacity: 80%;
+
+}
+
+
+#tv1{
+  position: fixed ;
+  top: 440px;
+  left: 700px;
+}
+
+#clownhead{
+  position: fixed ;
+  top: 340px;
+  left: 1200px;
+}
+
+#viruss{
+  position: fixed ;
+  top: 490px;
+  left: 740px;
+}
+
+
+#boxx{
+  position: fixed ;
+  top: 605px;
+  left: 895px;
+  opacity: 0%;
 }
